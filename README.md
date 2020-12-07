@@ -26,6 +26,7 @@ Our code structure is divided into two big parts of ARIMA and LSTM and at the en
 2) Second trial is to weight more on the accurate model with is LSTM as 80% and 20% manually
 3) Finally, we figured out how to weight more on the accurate model without defining the percentage.
 
-** Using MAPE, Weights for ARIMA = (lstm_mape/(arima_mape+lstm_mape)
-** Using MAPE, Weights for LSTM = (arima_mape/(arima_mape+lstm_mape)
+- Using MAPE, Weights for ARIMA = (lstm_mape/(arima_mape+lstm_mape)
+
+- Using MAPE, Weights for LSTM = (arima_mape/(arima_mape+lstm_mape)
 
