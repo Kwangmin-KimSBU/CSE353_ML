@@ -19,7 +19,7 @@ Our code structure is divided into two big parts of ARIMA and LSTM and at the en
 
 
 7) For LSTM, it uses Keras, LSTM, to train and predict the model with different layers.
-8) LSTM MAPE: 10.0213
+8) LSTM MAPE: 9.6575
 
 # For the ensemble: 
 1) First we tried is to average the model.
@@ -29,4 +29,4 @@ Our code structure is divided into two big parts of ARIMA and LSTM and at the en
 - Using MAPE, Weights for ARIMA = (lstm_mape/(arima_mape+lstm_mape)
 
 - Using MAPE, Weights for LSTM = (arima_mape/(arima_mape+lstm_mape)
-
+4) Ensembel model MAPE: 9.1459
