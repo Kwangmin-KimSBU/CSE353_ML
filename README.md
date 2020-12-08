@@ -20,7 +20,8 @@ Our code structure is divided into two big parts of ARIMA and LSTM and at the en
 
 
 7) For LSTM, it uses Keras, LSTM, to train and predict the model with different layers.
-8) LSTM MAPE: 9.6575
+8) LSTM with 3 hidden layers with one dropout(0.3) got the highest accuracy among expereiments
+9) LSTM MAPE: 9.6575
 
 - It will automatically generate the newly created csv file for ARIMA and LSTM predictions contained.
 
