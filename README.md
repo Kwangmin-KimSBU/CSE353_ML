@@ -17,7 +17,7 @@ Our code structure is divided into two big parts of ARIMA and LSTM and at the en
 6) ARIMA MAPE (Mean Absolute Percentage Error): 11.2892
 - MAPE: The mean absolute percentage error (MAPE), also known as mean absolute percentage deviation (MAPD), is a measure of prediction accuracy of a forecasting method in statistics, for example in trend estimation, also used as a loss function for regression problems in machine learning. It usually expresses the accuracy as a ratio defined by the formula:
 
-
+![alt text](http://url/to/MAPE.png)
 
 7) For LSTM, it uses Keras, LSTM, to train and predict the model with different layers.
 8) LSTM with 3 hidden layers with one dropout(0.3) got the highest accuracy among expereiments
